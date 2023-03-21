@@ -1,0 +1,107 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.dark-mode {
+  background-color: #262626;
+  color: #f2f2f2;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.quote {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.input {
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.racers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.racers > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.racers .name {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.racers .progress {
+  height: 5px;
+  background-color: #ccc;
+  width: 100%;
+}
+
+.racers .progress-bar {
+  height: 5px;
+  background-color: #4caf50;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.robot1 .progress-bar {
+  background-color: #2196f3;
+}
+
+.robot2 .progress-bar {
+  background-color: #ffc107;
+}
+
+.robot3 .progress-bar {
+  background-color: #9c27b0;
+}
+
+.user .progress-bar {
+  background-color: #ff5722;
+}
+
+.incorrect {
+  border-color: red;
+  box-shadow: 1px 1px 5px rgba(255, 0, 0, 0.3);
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.restart {
+  background-color: #4caf50;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.restart:hover {
+  background-color: #3e8e41;
+}
